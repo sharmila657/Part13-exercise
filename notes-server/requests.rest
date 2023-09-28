@@ -5,6 +5,10 @@ PUT:http://localhost:3002/api/blogs
 Content-Type:application/json
 
 {
+    "author":"sharmila",
+    "url":"http:tejfelloship.com",
+    "title":"Relational database",
+    "likes":10
 
 }
 
@@ -13,6 +17,11 @@ POST:http://localhost:3002/api/blogs
 Content-Type:application/json
 
 {
+     "author":"Aarju",
+    "url":"http:tejfelloshipnepal.com",
+    "title":"Progresql",
+    "likes":20
+
  
 }
 

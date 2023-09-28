@@ -22,3 +22,9 @@ const PORT = process.env.PORT || 3002
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
+
+app.post('/api/blogs', async (req, res) => {
+  const { author, url, title, likes } = req.body;
+  res.json(req.body);
+  
+})
